@@ -1,0 +1,878 @@
+/*
+
+AMD Vivado v2023.1 (64-bit) [Major: 2023, Minor: 1]
+SW Build: 3865809 on Sun May  7 15:05:29 MDT 2023
+IP Build: 3864474 on Sun May  7 20:36:21 MDT 2023
+IP Build: 3864474 on Sun May  7 20:36:21 MDT 2023
+
+Process ID (PID): 8060
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Fri Aug 18 15:33:02 IST 2023
+Time zone: 	India Standard Time (Asia/Calcutta)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1366x768
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+OS font scaling: 100%
+
+Java version: 	17.0.3 64-bit
+JavaFX version: 17.0.1
+Java home: 	C:/Xilinx/Vivado/2023.1/tps/win64/jre17.0.3_7
+Java executable: 	C:/Xilinx/Vivado/2023.1/tps/win64/jre17.0.3_7/bin/java.exe
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Dsun.java2d.d3d=false, -Dsun.awt.nopixfmt=true, -Dsun.java2d.dpiaware=true, -Dsun.java2d.uiScale.enabled=false, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, -XX:+UseStringDeduplication, -XX:MaxGCPauseMillis=200, -XX:+ParallelRefProcEnabled, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.base/java.nio=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED, --add-exports=java.base/sun.security.action=ALL-UNNAMED, --add-exports=java.desktop/sun.font=ALL-UNNAMED, -XX:NewSize=80m, -XX:MaxNewSize=80m, -Xms512m, -Xmx4072m, -Xss10m]
+Java initial memory (-Xms): 	512 MB
+Java maximum memory (-Xmx):	 3 GB
+
+User name: 	Admin
+User home directory: C:/Users/Admin
+User working directory: G:/vivado/SYNC FIFO
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2023.1
+RDI_DATADIR: C:/Xilinx/Vivado/2023.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2023.1/bin
+
+Vivado preferences file: C:/Users/Admin/AppData/Roaming/Xilinx/Vivado/2023.1/vivado.xml
+Vivado preferences directory: C:/Users/Admin/AppData/Roaming/Xilinx/Vivado/2023.1/
+Vivado layouts directory: C:/Users/Admin/AppData/Roaming/Xilinx/Vivado/2023.1/data/layouts
+PlanAhead jar file: 	C:/Xilinx/Vivado/2023.1/lib/classes/planAhead.jar
+Vivado log file: 	G:/vivado/SYNC FIFO/vivado.log
+Vivado journal file: 	G:/vivado/SYNC FIFO/vivado.jou
+Engine tmp dir: 	G:/vivado/SYNC FIFO/.Xil/Vivado-8060-DESKTOP-E49N4J0
+Non-Default Parameters:	[]
+
+Xilinx & AMD Environment Variables
+--------------------------------------------------------------------------------------------
+ANDROID_SDK_HOME: C:\Android
+RDI_APPROOT: C:/Xilinx/Vivado/2023.1
+RDI_ARGS:  -gui_launcher_event rodinguilauncherevent6672 "G:\vivado\SYNC FIFO\SYNC FIFO.xpr"
+RDI_ARGS_FUNCTION: RDI_EXEC_DEFAULT
+RDI_BASEROOT: C:/Xilinx/Vivado
+RDI_BINDIR: C:/Xilinx/Vivado/2023.1/bin
+RDI_BINROOT: C:/Xilinx/Vivado/2023.1/bin
+RDI_BUILD: yes
+RDI_CHECK_PROG: True
+RDI_DATADIR: C:/Xilinx/Vivado/2023.1/data
+RDI_INSTALLROOT: C:/Xilinx
+RDI_INSTALLVER: 2023.1
+RDI_INSTALLVERSION: 2023.1
+RDI_ISE_PLATFORM: nt64
+RDI_JAVACEFROOT: C:/Xilinx/Vivado/2023.1/tps/win64/java-cef-95.0.4638.69
+RDI_JAVAFXROOT: C:/Xilinx/Vivado/2023.1/tps/win64/javafx-sdk-17.0.1
+RDI_JAVAROOT: C:/Xilinx/Vivado/2023.1/tps/win64/jre17.0.3_7
+RDI_JAVA_VERSION: 17.0.3_7
+RDI_LIBDIR: C:/Xilinx/Vivado/2023.1/lib/win64.o
+RDI_MINGW_LIB: C:/Xilinx/Vivado/2023.1\tps\mingw\6.2.0\win64.o\nt\bin;C:/Xilinx/Vivado/2023.1\tps\mingw\6.2.0\win64.o\nt\libexec\gcc\x86_64-w64-mingw32\6.2.0
+RDI_OPT_EXT: .o
+RDI_PLATFORM: win64
+RDI_PREPEND_PATH: C:/Xilinx/Vivado/2023.1/ids_lite/ISE/bin/nt64;C:/Xilinx/Vivado/2023.1/ids_lite/ISE/lib/nt64
+RDI_PROG: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/vivado.exe
+RDI_PROGNAME: vivado.exe
+RDI_PYTHON3: C:/Xilinx/Vivado/2023.1\tps\win64\python-3.8.3
+RDI_PYTHON3_VERSION: 3.8.3
+RDI_PYTHONHOME: C:/Xilinx/Vivado/2023.1\tps\win64\python-3.8.3
+RDI_PYTHONPATH: C:/Xilinx/Vivado/2023.1\tps\win64\python-3.8.3;C:/Xilinx/Vivado/2023.1\tps\win64\python-3.8.3\bin;C:/Xilinx/Vivado/2023.1\tps\win64\python-3.8.3\lib;C:/Xilinx/Vivado/2023.1\tps\win64\python-3.8.3\lib\site-packages
+RDI_PYTHON_LD_LIBPATH: C:/Xilinx/Vivado/2023.1\tps\win64\python-3.8.3\lib
+RDI_SESSION_INFO: G:\vivado\SYNCFIFO:DESKTOP-E49N4J0-Fri08-18-2023_15-32-36.30
+RDI_SHARED_DATA: C:/Xilinx/SharedData/2023.1/data
+RDI_TPS_ROOT: C:/Xilinx/Vivado/2023.1/tps/win64
+RDI_USE_JDK17: True
+RDI_VERBOSE: False
+XILINX: C:/Xilinx/Vivado/2023.1/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2023.1/ids_lite/ISE
+XILINX_HLS: C:/Xilinx/Vitis_HLS/2023.1
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2023.1
+XILINX_VIVADO: C:/Xilinx/Vivado/2023.1
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2023.1
+_RDI_BINROOT: C:\Xilinx\Vivado\2023.1\bin
+_RDI_CWD: G:\vivado\SYNC FIFO
+
+
+GUI allocated memory:	512 MB
+GUI max memory:		4,072 MB
+Engine allocated memory: 745 MB
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: G:\vivado\SYNC FIFO\SYNC FIFO.xpr. Version: Vivado v2023.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// Tcl Message: open_project {G:/vivado/SYNC FIFO/SYNC FIFO.xpr} 
+// HMemoryUtils.trashcanNow. Engine heap size: 778 MB. GUI used memory: 66 MB. Current time: 8/18/23, 3:33:03 PM IST
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 112 MB (+115420kb) [00:00:27]
+// [Engine Memory]: 1,019 MB (+917400kb) [00:00:27]
+// WARNING: HEventQueue.dispatchEvent() is taking  3868 ms.
+// Tcl Message: open_project {G:/vivado/SYNC FIFO/SYNC FIFO.xpr} 
+// Tcl Message: INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'G:/vivado/SYNC FIFO/SYNC FIFO.gen/sources_1'. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.1/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:31 ; elapsed = 00:00:15 . Memory (MB): peak = 1397.094 ; gain = 139.441 
+// Project name: SYNC FIFO; location: G:/vivado/SYNC FIFO; part: xc7a12ticsg325-1L
+dismissDialog("Open Project"); // bq
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 120 MB (+2451kb) [00:00:36]
+// [GUI Memory]: 127 MB (+691kb) [00:02:08]
+// Elapsed time: 134 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 2); // E
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // f
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ao
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// TclEventType: LAUNCH_SIM
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// Tcl Message: INFO: [Vivado 12-12493] Simulation top is 'SYNC_FIFO_TB' 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'G:/vivado/SYNC FIFO/SYNC FIFO.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.1/tps/boost_1_72_0' INFO: [SIM-utils-54] Inspecting design source files for 'SYNC_FIFO_TB' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design 
+// Tcl Message: INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'G:/vivado/SYNC FIFO/SYNC FIFO.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvlog --incr --relax -prj SYNC_FIFO_TB_vlog.prj" ECHO is off. ECHO is off. 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '4' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'G:/vivado/SYNC FIFO/SYNC FIFO.sim/sim_1/behav/xsim' 
+// Tcl Message: "xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot SYNC_FIFO_TB_behav xil_defaultlib.SYNC_FIFO_TB xil_defaultlib.glbl -log elaborate.log" ECHO is off. ECHO is off. 
+// Tcl Message: Vivado Simulator v2023.1 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved. Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot SYNC_FIFO_TB_behav xil_defaultlib.SYNC_FIFO_TB xil_defaultlib.glbl -log elaborate.log  Using 2 slave threads. Starting static elaboration Pass Through NonSizing Optimizer Completed static elaboration INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel 
+// TclEventType: LAUNCH_SIM
+// TclEventType: LOAD_FEATURE
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'G:/vivado/SYNC FIFO/SYNC FIFO.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "SYNC_FIFO_TB_behav -key {Behavioral:sim_1:Functional:SYNC_FIFO_TB} -tclbatch {SYNC_FIFO_TB.tcl} -view {{G:/vivado/SYNC FIFO/SYNC_FIFO_TB_behav.wcfg}} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,057 MB. GUI used memory: 68 MB. Current time: 8/18/23, 3:35:48 PM IST
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// Elapsed time: 13 seconds
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // t
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// [Engine Memory]: 1,074 MB (+3972kb) [00:03:06]
+// Tcl Message: open_wave_config {G:/vivado/SYNC FIFO/SYNC_FIFO_TB_behav.wcfg} 
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// [GUI Memory]: 144 MB (+11063kb) [00:03:07]
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,074 MB. GUI used memory: 73 MB. Current time: 8/18/23, 3:35:52 PM IST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_STOPPED
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: source SYNC_FIFO_TB.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } # run 1000ns 
+// Tcl Message: RD Data:   x, Empty: x, Full: x RD Data:   x, Empty: 1, Full: 0 RD Data:   x, Empty: 1, Full: 0 RD Data:   x, Empty: 1, Full: 0 RD Data:   x, Empty: 0, Full: 0 RD Data:   x, Empty: 0, Full: 0 RD Data:   2, Empty: 0, Full: 0 RD Data:   2, Empty: 0, Full: 0 RD Data:   3, Empty: 0, Full: 0 RD Data:   3, Empty: 1, Full: 0 RD Data:   3, Empty: 0, Full: 0 RD Data:   4, Empty: 1, Full: 0 RD Data:   4, Empty: 0, Full: 0 RD Data:   5, Empty: 1, Full: 0 RD Data:   5, Empty: 0, Full: 0 RD Data:   5, Empty: 1, Full: 0 $finish called at time : 160 ns : File "G:/vivado/SYNC FIFO/SYNC FIFO.srcs/sim_1/new/SYNC_FIFO_TB.v" Line 33 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'SYNC_FIFO_TB_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:10 ; elapsed = 00:00:15 . Memory (MB): peak = 1444.934 ; gain = 23.223 
+// 'd' command handler elapsed time: 15 seconds
+dismissDialog("Run Simulation"); // e
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "SYNC_FIFO_TB_behav.wcfg", 0); // o
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // L
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+floatFrame(RDIResource.RDIViews_WAVEFORM_VIEWER, "SYNC_FIFO_TB_behav.wcfg"); // R
+// RDIResource.RDIViews_WAVEFORM_VIEWER: SYNC_FIFO_TB_behav.wcfg: float view
+// HMemoryUtils.trashcanNow. Engine heap size: 1,080 MB. GUI used memory: 74 MB. Current time: 8/18/23, 3:36:02 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+maximizeFrame(RDIResource.RDIViews_WAVEFORM_VIEWER, "SYNC_FIFO_TB_behav.wcfg"); // R
+// HMemoryUtils.trashcanNow. Engine heap size: 1,085 MB. GUI used memory: 78 MB. Current time: 8/18/23, 3:36:05 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectButton(RDIResource.GraphicalView_ZOOM_FIT, "Waveform Viewer_zoom_fit"); // B
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 649, 107); // b
+// TclEventType: WAVEFORM_SELECTED_WAVE_OBJECT_NAMES
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 1,091 MB. GUI used memory: 77 MB. Current time: 8/18/23, 3:36:14 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 1,091 MB. GUI used memory: 78 MB. Current time: 8/18/23, 3:36:14 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 1,091 MB. GUI used memory: 79 MB. Current time: 8/18/23, 3:36:14 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,091 MB. GUI used memory: 77 MB. Current time: 8/18/23, 3:36:15 PM IST
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 1,091 MB. GUI used memory: 77 MB. Current time: 8/18/23, 3:36:15 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,091 MB. GUI used memory: 77 MB. Current time: 8/18/23, 3:36:15 PM IST
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,091 MB. GUI used memory: 77 MB. Current time: 8/18/23, 3:36:15 PM IST
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 1,091 MB. GUI used memory: 77 MB. Current time: 8/18/23, 3:36:15 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,091 MB. GUI used memory: 77 MB. Current time: 8/18/23, 3:36:15 PM IST
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,091 MB. GUI used memory: 78 MB. Current time: 8/18/23, 3:36:15 PM IST
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_SELECTED_WAVE_OBJECT_NAMES
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 1,091 MB. GUI used memory: 77 MB. Current time: 8/18/23, 3:36:15 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 1,091 MB. GUI used memory: 77 MB. Current time: 8/18/23, 3:36:15 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 13 seconds
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 307, 168); // b
+// TclEventType: WAVEFORM_SELECTED_WAVE_OBJECT_NAMES
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_SELECTED_WAVE_OBJECT_NAMES
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 1,093 MB. GUI used memory: 76 MB. Current time: 8/18/23, 3:36:28 PM IST
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 307, 168); // b
+// TclEventType: WAVEFORM_SELECTED_WAVE_OBJECT_NAMES
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,093 MB. GUI used memory: 77 MB. Current time: 8/18/23, 3:36:29 PM IST
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 1,093 MB. GUI used memory: 77 MB. Current time: 8/18/23, 3:36:29 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,093 MB. GUI used memory: 77 MB. Current time: 8/18/23, 3:36:29 PM IST
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 1,093 MB. GUI used memory: 77 MB. Current time: 8/18/23, 3:36:29 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 1,093 MB. GUI used memory: 77 MB. Current time: 8/18/23, 3:36:30 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 1,093 MB. GUI used memory: 77 MB. Current time: 8/18/23, 3:36:30 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 1,093 MB. GUI used memory: 77 MB. Current time: 8/18/23, 3:36:30 PM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// RDIResource.RDIViews_WAVEFORM_VIEWER: SYNC_FIFO_TB_behav.wcfg: close view
+// Elapsed time: 15 seconds
+closeFrame(RDIResource.RDIViews_WAVEFORM_VIEWER, "SYNC_FIFO_TB_behav.wcfg"); // R
+dockFrame(RDIResource.RDIViews_WAVEFORM_VIEWER, "SYNC_FIFO_TB_behav.wcfg"); // R
+maximizeFrame(RDIResource.RDIViews_WAVEFORM_VIEWER, "SYNC_FIFO_TB_behav.wcfg"); // R
+closeView(RDIResource.RDIViews_WAVEFORM_VIEWER, "SYNC_FIFO_TB_behav.wcfg"); // u
+// Elapsed time: 63 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 13, true); // f - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_RTL_DESIGN
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Elaborate Design"); // u
+// Tcl Message: synth_design -rtl -rtl_skip_mlo -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -rtl_skip_mlo -name rtl_1 Starting synth_design Using part: xc7a12ticsg325-1L Top: SYNC_FIFO 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,315 MB. GUI used memory: 73 MB. Current time: 8/18/23, 3:37:53 PM IST
+// TclEventType: ELABORATE_START
+// TclEventType: ELABORATE_FINISH
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,953 MB. GUI used memory: 73 MB. Current time: 8/18/23, 3:38:08 PM IST
+// [Engine Memory]: 1,953 MB (+865212kb) [00:05:24]
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// TclEventType: DESIGN_NEW
+// WARNING: HEventQueue.dispatchEvent() is taking  4928 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Device 21-403] Loading part xc7a12ticsg325-1L 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 2200.371 ; gain = 391.070 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'SYNC_FIFO' [G:/vivado/SYNC FIFO/SYNC FIFO.srcs/sources_1/new/SYNC_FIFO.v:5] INFO: [Synth 8-6155] done synthesizing module 'SYNC_FIFO' (0#1) [G:/vivado/SYNC FIFO/SYNC FIFO.srcs/sources_1/new/SYNC_FIFO.v:5] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2324.605 ; gain = 515.305 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: --------------------------------------------------------------------------------- Start Handling Custom Attributes --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Handling Custom Attributes : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2324.605 ; gain = 515.305 
+// Tcl Message: --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2324.605 ; gain = 515.305 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 2324.605 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Completed Processing XDC Constraints  
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2409.930 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Tcl Message: RTL Elaboration Complete:  : Time (s): cpu = 00:00:22 ; elapsed = 00:00:20 . Memory (MB): peak = 2430.895 ; gain = 621.594 
+// Tcl Message: 5 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered. synth_design completed successfully 
+// Tcl Message: synth_design: Time (s): cpu = 00:00:27 ; elapsed = 00:00:26 . Memory (MB): peak = 2430.895 ; gain = 982.457 
+// [GUI Memory]: 157 MB (+6153kb) [00:05:31]
+// Elapsed Time for: 'o.a': 28s
+// 'dA' command handler elapsed time: 28 seconds
+// Elapsed time: 27 seconds
+dismissDialog("Open Elaborated Design"); // bq
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // D
+floatFrame(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic"); // R
+// PAResourceOtoP.PAViews_SCHEMATIC: Schematic: float view
+maximizeFrame(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic"); // R
+// Run Command: PAResourceCommand.PACommandNames_PRINT
+// [GUI Memory]: 171 MB (+5912kb) [00:06:05]
+// HOptionPane Error: 'Printer job failed: null (Vivado)'
+// WARNING: HEventQueue.dispatchEvent() is taking  52939 ms.
+// Thread: TimerQueue
+// 	at java.base@17.0.3/jdk.internal.misc.Unsafe.park(Native Method)
+// 	at java.base@17.0.3/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+// 	at java.base@17.0.3/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+// 	at java.base@17.0.3/java.util.concurrent.DelayQueue.take(DelayQueue.java:229)
+// 	at java.desktop@17.0.3/javax.swing.TimerQueue.run(TimerQueue.java:172)
+// 	at java.base@17.0.3/java.lang.Thread.run(Thread.java:833)
+// Thread: Monitor File Timestamp Swing Worker Thread
+// 	at java.base@17.0.3/java.lang.Thread.sleep(Native Method)
+// 	at ui.views.f.aQH(SourceFile:227)
+// 	at ui.frmwork.z.run(SourceFile:213)
+// 	at java.base@17.0.3/java.lang.Thread.run(Thread.java:833)
+// Thread: SyntheticaAnimation 25
+// 	at java.base@17.0.3/java.lang.Thread.sleep(Native Method)
+// 	at de.javasoft.plaf.synthetica.painter.AnimationThreadFactory$AnimationThread.run(AnimationThreadFactory.java:119)
+// Thread: Attach Listener
+// Thread: AWT-Windows
+// 	at java.desktop@17.0.3/sun.awt.windows.WToolkit.eventLoop(Native Method)
+// 	at java.desktop@17.0.3/sun.awt.windows.WToolkit.run(WToolkit.java:365)
+// 	at java.base@17.0.3/java.lang.Thread.run(Thread.java:833)
+// Thread: Monitor HEventQueue Thread
+// 	at java.base@17.0.3/java.lang.Thread.dumpThreads(Native Method)
+// 	at java.base@17.0.3/java.lang.Thread.getAllStackTraces(Thread.java:1662)
+// 	at ui.utils.d.c.iue(SourceFile:595)
+// 	at ui.frmwork.a.e.aQH(SourceFile:145)
+// 	at ui.frmwork.z.run(SourceFile:213)
+// 	at java.base@17.0.3/java.lang.Thread.run(Thread.java:833)
+// Thread: Timer-0
+// 	at java.base@17.0.3/java.lang.Object.wait(Native Method)
+// 	at java.base@17.0.3/java.util.TimerThread.mainLoop(Timer.java:563)
+// 	at java.base@17.0.3/java.util.TimerThread.run(Timer.java:516)
+// Thread: Timer-3
+// 	at java.base@17.0.3/java.lang.Object.wait(Native Method)
+// 	at java.base@17.0.3/java.util.TimerThread.mainLoop(Timer.java:563)
+// 	at java.base@17.0.3/java.util.TimerThread.run(Timer.java:516)
+// Thread: Signal Dispatcher
+// Thread: pool-3-thread-1
+// 	at java.base@17.0.3/jdk.internal.misc.Unsafe.park(Native Method)
+// 	at java.base@17.0.3/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+// 	at java.base@17.0.3/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+// 	at java.base@17.0.3/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+// 	at java.base@17.0.3/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+// 	at java.base@17.0.3/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+// 	at java.base@17.0.3/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+// 	at java.base@17.0.3/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+// 	at java.base@17.0.3/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+// 	at java.base@17.0.3/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+// 	at java.base@17.0.3/java.lang.Thread.run(Thread.java:833)
+// Thread: Reference Handler
+// 	at java.base@17.0.3/java.lang.ref.Reference.waitForReferencePendingList(Native Method)
+// 	at java.base@17.0.3/java.lang.ref.Reference.processPendingReferences(Reference.java:253)
+// 	at java.base@17.0.3/java.lang.ref.Reference$ReferenceHandler.run(Reference.java:215)
+// Thread: Batik CleanerThread
+// 	at java.base@17.0.3/java.lang.Object.wait(Native Method)
+// 	at java.base@17.0.3/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+// 	at java.base@17.0.3/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+// 	at org.apache.batik.util.CleanerThread.run(CleanerThread.java:106)
+// Thread: Timer-2
+// 	at java.base@17.0.3/java.lang.Object.wait(Native Method)
+// 	at java.base@17.0.3/java.util.TimerThread.mainLoop(Timer.java:563)
+// 	at java.base@17.0.3/java.util.TimerThread.run(Timer.java:516)
+// Thread: pool-2-thread-1
+// 	at java.base@17.0.3/jdk.internal.misc.Unsafe.park(Native Method)
+// 	at java.base@17.0.3/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+// 	at java.base@17.0.3/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+// 	at java.base@17.0.3/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+// 	at java.base@17.0.3/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+// 	at java.base@17.0.3/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+// 	at java.base@17.0.3/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+// 	at java.base@17.0.3/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+// 	at java.base@17.0.3/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+// 	at java.base@17.0.3/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+// 	at java.base@17.0.3/java.lang.Thread.run(Thread.java:833)
+// Thread: Process Messages Thread
+// 	at java.base@17.0.3/java.lang.Thread.sleep(Native Method)
+// 	at ui.frmwork.c.g.aQH(SourceFile:135)
+// 	at ui.frmwork.z.run(SourceFile:213)
+// 	at java.base@17.0.3/java.lang.Thread.run(Thread.java:833)
+// Thread: SyntheticaAnimation 50
+// 	at java.base@17.0.3/java.lang.Thread.sleep(Native Method)
+// 	at de.javasoft.plaf.synthetica.painter.AnimationThreadFactory$AnimationThread.run(AnimationThreadFactory.java:119)
+// Thread: Monitor File Timestamp Swing Worker Thread
+// 	at java.base@17.0.3/java.lang.Thread.sleep(Native Method)
+// 	at ui.views.f.aQH(SourceFile:227)
+// 	at ui.frmwork.z.run(SourceFile:213)
+// 	at java.base@17.0.3/java.lang.Thread.run(Thread.java:833)
+// Thread: Monitor File Timestamp Swing Worker Thread
+// 	at java.base@17.0.3/java.lang.Thread.sleep(Native Method)
+// 	at ui.views.f.aQH(SourceFile:227)
+// 	at ui.frmwork.z.run(SourceFile:213)
+// 	at java.base@17.0.3/java.lang.Thread.run(Thread.java:833)
+// Thread: AWT-Shutdown
+// 	at java.base@17.0.3/java.lang.Object.wait(Native Method)
+// 	at java.base@17.0.3/java.lang.Object.wait(Object.java:338)
+// 	at java.desktop@17.0.3/sun.awt.AWTAutoShutdown.run(AWTAutoShutdown.java:291)
+// 	at java.base@17.0.3/java.lang.Thread.run(Thread.java:833)
+// Thread: SyntheticaCleanerThread
+// 	at java.base@17.0.3/java.lang.Thread.sleep(Native Method)
+// 	at de.javasoft.plaf.synthetica.StyleFactory$ComponentPropertyStore$1.run(StyleFactory.java:1903)
+// Thread: RemotePrinterListener
+// 	at java.desktop@17.0.3/sun.print.PrintServiceLookupProvider.notifyRemotePrinterChange(Native Method)
+// 	at java.desktop@17.0.3/sun.print.PrintServiceLookupProvider$RemotePrinterChangeListener.run(PrintServiceLookupProvider.java:328)
+// 	at java.base@17.0.3/java.lang.Thread.run(Thread.java:833)
+// Thread: AWT-EventQueue-0
+// 	at java.desktop@17.0.3/sun.awt.windows.WPrinterJob._startDoc(Native Method)
+// 	at java.desktop@17.0.3/sun.awt.windows.WPrinterJob.startDoc(WPrinterJob.java:1432)
+// 	at java.desktop@17.0.3/sun.print.RasterPrinterJob.print(RasterPrinterJob.java:1599)
+// 	at java.desktop@17.0.3/sun.print.RasterPrinterJob.print(RasterPrinterJob.java:1489)
+// 	at ui.views.P.X.a(SourceFile:1008)
+// 	at ui.views.d.aE.run(SourceFile:63)
+// 	at ui.frmwork.cmd.a.hjy(SourceFile:128)
+// 	at ui.frmwork.cmd.d.hjL(SourceFile:66)
+// 	at ui.o$b.actionPerformed(SourceFile:912)
+// 	at ui.x.actionPerformed(SourceFile:266)
+// 	at java.desktop@17.0.3/javax.swing.SwingUtilities.notifyAction(SwingUtilities.java:1810)
+// 	at java.desktop@17.0.3/javax.swing.JComponent.processKeyBinding(JComponent.java:2947)
+// 	at java.desktop@17.0.3/javax.swing.JMenuBar.processBindingForKeyStrokeRecursive(JMenuBar.java:710)
+// 	at java.desktop@17.0.3/javax.swing.JMenuBar.processBindingForKeyStrokeRecursive(JMenuBar.java:717)
+// 	at java.desktop@17.0.3/javax.swing.JMenuBar.processBindingForKeyStrokeRecursive(JMenuBar.java:717)
+// 	at java.desktop@17.0.3/javax.swing.JMenuBar.processKeyBinding(JMenuBar.java:688)
+// 	at java.desktop@17.0.3/javax.swing.KeyboardManager.fireBinding(KeyboardManager.java:311)
+// 	at java.desktop@17.0.3/javax.swing.KeyboardManager.fireKeyboardAction(KeyboardManager.java:297)
+// 	at java.desktop@17.0.3/javax.swing.JComponent.processKeyBindingsForAllComponents(JComponent.java:3040)
+// 	at java.desktop@17.0.3/javax.swing.JComponent.processKeyBindings(JComponent.java:3032)
+// 	at java.desktop@17.0.3/javax.swing.JComponent.processKeyEvent(JComponent.java:2909)
+// 	at java.desktop@17.0.3/java.awt.Component.processEvent(Component.java:6403)
+// 	at java.desktop@17.0.3/java.awt.Container.processEvent(Container.java:2266)
+// 	at java.desktop@17.0.3/java.awt.Component.dispatchEventImpl(Component.java:5001)
+// 	at java.desktop@17.0.3/java.awt.Container.dispatchEventImpl(Container.java:2324)
+// 	at java.desktop@17.0.3/java.awt.Component.dispatchEvent(Component.java:4833)
+// 	at java.desktop@17.0.3/java.awt.KeyboardFocusManager.redispatchEvent(KeyboardFocusManager.java:1952)
+// 	at com.jidesoft.swing.ResizableFrame$1.processKeyBinding(Unknown Source)
+// 	at java.desktop@17.0.3/javax.swing.JComponent.processKeyBindings(JComponent.java:3009)
+// 	at java.desktop@17.0.3/javax.swing.JComponent.processKeyEvent(JComponent.java:2909)
+// 	at java.desktop@17.0.3/java.awt.Component.processEvent(Component.java:6403)
+// 	at java.desktop@17.0.3/java.awt.Container.processEvent(Container.java:2266)
+// 	at java.desktop@17.0.3/java.awt.Component.dispatchEventImpl(Component.java:5001)
+// 	at java.desktop@17.0.3/java.awt.Container.dispatchEventImpl(Container.java:2324)
+// 	at java.desktop@17.0.3/java.awt.Component.dispatchEvent(Component.java:4833)
+// 	at java.desktop@17.0.3/java.awt.KeyboardFocusManager.redispatchEvent(KeyboardFocusManager.java:1952)
+// 	at java.desktop@17.0.3/java.awt.DefaultKeyboardFocusManager.dispatchKeyEvent(DefaultKeyboardFocusManager.java:883)
+// 	at java.desktop@17.0.3/java.awt.DefaultKeyboardFocusManager.preDispatchKeyEvent(DefaultKeyboardFocusManager.java:1150)
+// 	at java.desktop@17.0.3/java.awt.DefaultKeyboardFocusManager.typeAheadAssertions(DefaultKeyboardFocusManager.java:1020)
+// 	at java.desktop@17.0.3/java.awt.DefaultKeyboardFocusManager.dispatchEvent(DefaultKeyboardFocusManager.java:848)
+// 	at java.desktop@17.0.3/java.awt.Component.dispatchEventImpl(Component.java:4882)
+// 	at java.desktop@17.0.3/java.awt.Container.dispatchEventImpl(Container.java:2324)
+// 	at java.desktop@17.0.3/java.awt.Window.dispatchEventImpl(Window.java:2780)
+// 	at java.desktop@17.0.3/java.awt.Component.dispatchEvent(Component.java:4833)
+// 	at java.desktop@17.0.3/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773)
+// 	at java.desktop@17.0.3/java.awt.EventQueue$4.run(EventQueue.java:722)
+// 	at java.desktop@17.0.3/java.awt.EventQueue$4.run(EventQueue.java:716)
+// 	at java.base@17.0.3/java.security.AccessController.executePrivileged(AccessController.java:776)
+// 	at java.base@17.0.3/java.security.AccessController.doPrivileged(AccessController.java:399)
+// 	at java.base@17.0.3/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+// 	at java.base@17.0.3/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:97)
+// 	at java.desktop@17.0.3/java.awt.EventQueue$5.run(EventQueue.java:746)
+// 	at java.desktop@17.0.3/java.awt.EventQueue$5.run(EventQueue.java:744)
+// 	at java.base@17.0.3/java.security.AccessController.executePrivileged(AccessController.java:776)
+// 	at java.base@17.0.3/java.security.AccessController.doPrivileged(AccessController.java:399)
+// 	at java.base@17.0.3/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+// 	at java.desktop@17.0.3/java.awt.EventQueue.dispatchEvent(EventQueue.java:743)
+// 	at ui.frmwork.a.d.dispatchEvent(SourceFile:92)
+// 	at java.desktop@17.0.3/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+// 	at java.desktop@17.0.3/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+// 	at java.desktop@17.0.3/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+// 	at java.desktop@17.0.3/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+// 	at java.desktop@17.0.3/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+// 	at java.desktop@17.0.3/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+// Thread: Timer-1
+// 	at java.base@17.0.3/java.lang.Object.wait(Native Method)
+// 	at java.base@17.0.3/java.util.TimerThread.mainLoop(Timer.java:563)
+// 	at java.base@17.0.3/java.util.TimerThread.run(Timer.java:516)
+// Thread: Update Runs Swing Worker Thread
+// 	at java.base@17.0.3/java.lang.Thread.sleep(Native Method)
+// 	at ui.data.experiment.E.aQH(SourceFile:373)
+// 	at ui.frmwork.z.run(SourceFile:213)
+// 	at java.base@17.0.3/java.lang.Thread.run(Thread.java:833)
+// Thread: Timer-5
+// 	at java.base@17.0.3/java.lang.Object.wait(Native Method)
+// 	at java.base@17.0.3/java.util.TimerThread.mainLoop(Timer.java:563)
+// 	at java.base@17.0.3/java.util.TimerThread.run(Timer.java:516)
+// Thread: Notification Thread
+// Thread: Java2D Disposer
+// 	at java.base@17.0.3/java.lang.Object.wait(Native Method)
+// 	at java.base@17.0.3/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+// 	at java.base@17.0.3/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+// 	at java.desktop@17.0.3/sun.java2d.Disposer.run(Disposer.java:145)
+// 	at java.base@17.0.3/java.lang.Thread.run(Thread.java:833)
+// Thread: Refresh Filesets Swing Worker Thread
+// 	at java.base@17.0.3/java.lang.Thread.sleep(Native Method)
+// 	at ui.data.design.z.aQH(SourceFile:2577)
+// 	at ui.frmwork.z.run(SourceFile:213)
+// 	at java.base@17.0.3/java.lang.Thread.run(Thread.java:833)
+// Thread: SyntheticaAnimation 70
+// 	at java.base@17.0.3/java.lang.Thread.sleep(Native Method)
+// 	at de.javasoft.plaf.synthetica.painter.AnimationThreadFactory$AnimationThread.run(AnimationThreadFactory.java:119)
+// Thread: Common-Cleaner
+// 	at java.base@17.0.3/java.lang.Object.wait(Native Method)
+// 	at java.base@17.0.3/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+// 	at java.base@17.0.3/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:140)
+// 	at java.base@17.0.3/java.lang.Thread.run(Thread.java:833)
+// 	at java.base@17.0.3/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:162)
+// Thread: Image Animator 3
+// 	at java.base@17.0.3/java.lang.Thread.sleep(Native Method)
+// 	at java.desktop@17.0.3/sun.awt.image.GifFrame.dispose(GifImageDecoder.java:669)
+// 	at java.desktop@17.0.3/sun.awt.image.GifImageDecoder.produceImage(GifImageDecoder.java:247)
+// 	at java.desktop@17.0.3/sun.awt.image.InputStreamImageSource.doFetch(InputStreamImageSource.java:270)
+// 	at java.desktop@17.0.3/sun.awt.image.ImageFetcher.fetchloop(ImageFetcher.java:212)
+// 	at java.desktop@17.0.3/sun.awt.image.ImageFetcher.run(ImageFetcher.java:176)
+// Thread: pool-1-thread-1
+// 	at java.base@17.0.3/jdk.internal.misc.Unsafe.park(Native Method)
+// 	at java.base@17.0.3/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+// 	at java.base@17.0.3/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+// 	at java.base@17.0.3/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+// 	at java.base@17.0.3/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+// 	at java.base@17.0.3/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+// 	at java.base@17.0.3/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+// 	at java.base@17.0.3/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+// 	at java.base@17.0.3/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+// 	at java.base@17.0.3/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+// 	at java.base@17.0.3/java.lang.Thread.run(Thread.java:833)
+// Thread: Timer-4
+// 	at java.base@17.0.3/java.lang.Object.wait(Native Method)
+// 	at java.base@17.0.3/java.util.TimerThread.mainLoop(Timer.java:563)
+// 	at java.base@17.0.3/java.util.TimerThread.run(Timer.java:516)
+// Thread: PrinterListener
+// 	at java.desktop@17.0.3/sun.print.PrintServiceLookupProvider.notifyLocalPrinterChange(Native Method)
+// 	at java.desktop@17.0.3/sun.print.PrintServiceLookupProvider$PrinterChangeListener.run(PrintServiceLookupProvider.java:321)
+// 	at java.base@17.0.3/java.lang.Thread.run(Thread.java:833)
+// Thread: Finalizer
+// 	at java.base@17.0.3/java.lang.Object.wait(Native Method)
+// 	at java.base@17.0.3/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+// 	at java.base@17.0.3/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+// 	at java.base@17.0.3/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:172)
+// Thread: hw_ila_monitor
+// 	at java.base@17.0.3/java.lang.Object.wait(Native Method)
+// 	at java.base@17.0.3/java.lang.Object.wait(Object.java:338)
+// 	at java.base@17.0.3/java.util.TimerThread.mainLoop(Timer.java:537)
+// 	at java.base@17.0.3/java.util.TimerThread.run(Timer.java:516)
+// Thread: Thread-1
+// Thread: SyntheticaAnimation 50
+// 	at java.base@17.0.3/java.lang.Thread.sleep(Native Method)
+// 	at ui.utils.lnf.a$a.run(SourceFile:101)
+// Thread: main
+// 	at java.base@17.0.3/java.lang.Thread.sleep(Native Method)
+// 	at ui.PlanAhead.c(SourceFile:1252)
+// 	at ui.PlanAhead.jswMain(SourceFile:1301)
+// WARNING: HEventQueue.dispatchEvent() is taking  4777 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 2,016 MB. GUI used memory: 99 MB. Current time: 8/18/23, 3:39:33 PM IST
+// 'aE' command handler elapsed time: 63 seconds
+// Elapsed time: 68 seconds
+selectButton("OptionPane.button", "OK"); // JButton
+// PAResourceOtoP.PAViews_SCHEMATIC: Schematic: close view
+closeFrame(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic"); // R
+dockFrame(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic"); // R
+maximizeFrame(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic"); // R
+closeView(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic"); // j

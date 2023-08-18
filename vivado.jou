@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Fri Aug 18 15:32:38 2023
+# Process ID: 8060
+# Current directory: G:/vivado/SYNC FIFO
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6672 G:\vivado\SYNC FIFO\SYNC FIFO.xpr
+# Log file: G:/vivado/SYNC FIFO/vivado.log
+# Journal file: G:/vivado/SYNC FIFO\vivado.jou
+# Running On: DESKTOP-E49N4J0, OS: Windows, CPU Frequency: 2712 MHz, CPU Physical cores: 2, Host memory: 8451 MB
+#-----------------------------------------------------------
+start_gui
+open_project {G:/vivado/SYNC FIFO/SYNC FIFO.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config {G:/vivado/SYNC FIFO/SYNC_FIFO_TB_behav.wcfg}
+source SYNC_FIFO_TB.tcl
+synth_design -rtl -rtl_skip_mlo -name rtl_1
